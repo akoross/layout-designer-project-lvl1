@@ -47,6 +47,7 @@ h3 {
 .display-flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .bg-image {
@@ -183,16 +184,17 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 100px 0 70px;
 }
-.ikea-effect-img {
+.section-img {
   flex: 0 0 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.ikea-effect-description {
+.section-description {
   flex: 0 0 500px;
-  padding-top: 15px;
+  padding: 0 30px;
 }
-.ikea-effect-subtitle {
+.section-subtitle {
   font-family: Neucha;
   font-style: normal;
   font-weight: normal;
@@ -200,7 +202,7 @@ h3 {
   line-height: 29px;
   color: #908d8b;
 }
-.ikea-effect-title {
+.section-title {
   font-family: Neucha;
   font-style: normal;
   font-weight: normal;
@@ -209,7 +211,7 @@ h3 {
   color: #2a2626;
   margin-bottom: 30px;
 }
-.ikea-effect-text {
+.section-text {
   font-family: Neucha;
   font-style: normal;
   font-weight: normal;
@@ -217,24 +219,73 @@ h3 {
   line-height: 41px;
   color: #2a2626;
 }
-.ikea-effect-how-description {
+.section-how-description {
   flex: 0 0 100%;
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.ikea-effect-how {
+.section-how {
   flex: 0 0 100%;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 5px 10px;
   background: #b09a81;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
   line-height: 17px;
   font-weight: bold;
+  font-family: Open Sans;
 }
-.ikea-effect-how-text {
+.section-how-text {
   flex: 0 0 540px;
+  margin-bottom: 30px;
+}
+
+.premature-optimization {
+  background: #b09a81;
+  background-image: url('../image/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 100px 0 70px;
+  color: #ffffff;
+}
+
+.premature-optimization .section-description,
+.hyperbolic-depreciation .section-description {
+  order: 1;
+}
+
+.premature-optimization .section-subtitle,
+.hyperbolic-depreciation .section-subtitle {
+  color: #d7ccc0;
+}
+.premature-optimization .section-img,
+.hyperbolic-depreciation .section-img {
+  order: 2;
+}
+.premature-optimization .section-how-description,
+.hyperbolic-depreciation .section-how-description {
+  order: 3;
+}
+.premature-optimization .section-how,
+.hyperbolic-depreciation .section-how {
+  background: #ffffff;
+  color: #b09a81;
+}
+.distortion-of-novelty,
+.errors-in-planning {
+  padding: 100px 0 70px;
+}
+
+.hyperbolic-depreciation {
+  background: #b09a81;
+  background-image: url('../image/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 100px 0;
+  color: #ffffff;
 }
