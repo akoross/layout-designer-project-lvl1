@@ -38,7 +38,75 @@ h3 {
 }
 
 .container {
-  max-width: 1150px;
-  padding: 100 20px;
+  width: 1150px;
+  padding: 0 20px;
   margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.text-color-orange {
+  color: #fe8a02;
+}
+
+.header {
+  background: #f5f4f0;
+  background-image: url('../image/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-title {
+  margin: 0 0 185px 0;
+}
+
+.header-title::after {
+  content: url('../image/main-1.png');
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+  flex: 0 0 100%;
+}
+
+.header-description {
+  justify-content: space-between;
+  color: #2a2626;
+  columns: 2;
+  height: 186px;
+  flex: 0 0 100%;
+}
+
+.header-deskription-text {
+  color: #2a2626;
+  flex: 0 1 540px;
+  margin-bottom: 30px;
+}
+
+.header-btn {
+  flex: 0 0 auto;
+  padding: 12px 24px;
+  background: #fe8a02;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 51px 400px 0 auto;
 }
