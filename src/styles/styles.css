@@ -176,3 +176,65 @@ h3 {
 .navigation-link-text {
   color: #2a2626;
 }
+
+.ikea-effect {
+  background: #f5f4f0;
+  background-image: url('../image/bg-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.ikea-effect-img {
+  flex: 0 0 50%;
+}
+.ikea-effect-description {
+  flex: 0 0 500px;
+  padding-top: 15px;
+}
+.ikea-effect-subtitle {
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #908d8b;
+}
+.ikea-effect-title {
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2a2626;
+  margin-bottom: 30px;
+}
+.ikea-effect-text {
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  color: #2a2626;
+}
+.ikea-effect-how-description {
+  flex: 0 0 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ikea-effect-how {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #b09a81;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+}
+.ikea-effect-how-text {
+  flex: 0 0 540px;
+}
